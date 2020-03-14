@@ -3,4 +3,9 @@
             public $tempo_max;
         }
 
+    public function get_tempo_max(){
+        return $this->$tempo_max;
+    }
+
+    
 ?>
