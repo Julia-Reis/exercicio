@@ -1,0 +1,17 @@
+body{
+    height: 40%;
+    width: 40%;
+}
+
+input {
+    width: 40%;
+}
+
+fieldset {
+    background-color: #5F9EA0;
+}
+
+.botao{
+    background-color: #E0FFFF;
+    color: black;
+}
