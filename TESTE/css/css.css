@@ -1,0 +1,63 @@
+/* Cor  */
+body{
+    color: black;    
+}
+
+/* Coroa da Barra de Navegação */
+#logo {
+ width: 65px;
+ height: 70px;
+}
+
+/* CONFIGURAÇÃO DA BARRA DE NAVEGAÇÃO */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0.50%;
+    background-image: url("http://localhost/Furquim/Projeto Final/TESTE/img/fundo preto.png");
+}
+
+/* Configuracao das fotos da pagina inicial*/
+#index{
+    margin-top: 14%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imagem{
+    width: 300px;
+    height: 300px;
+}
+
+
+/* Configurções da tela de Login e tela cadastrar*/
+#telaLogin, #telaCadastrar{
+    display: block;
+	width: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    box-shadow: 1px 5px 30px rgb(195, 195, 195);
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 30px;
+}
+/* Acaba aqui*/
+
+/* Configurações do Rodapé*/
+footer{
+    margin-top: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Configuracao da imagem que aparece no Login e no Cadastrar*/
+.botao_login_cadastrar{
+    text-align: right;
+}
